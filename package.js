@@ -13,4 +13,5 @@ Package.on_use(function (api) {
 	api.add_files('lib/client/dialog.js', 'client');
 
 	api.export('Dialog', 'client');
+	api.export('Dialog2', 'client');
 });
